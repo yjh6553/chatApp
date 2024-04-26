@@ -6,7 +6,7 @@ import connectToMongoDB from "./db/connectToMongoDB.js";
 
 import authRoutes from "./routes/auth.routes.js";
 import messageRoutes from "./routes/message.routes.js";
-import userRoutes from "./routes/user.controller.js";
+import userRoutes from "./routes/user.routes.js";
 
 const app = express();
 //root route http://localhost:5000/
