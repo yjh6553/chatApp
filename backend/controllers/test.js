@@ -48,3 +48,8 @@ export const signup = async (req, res) => {
 		res.status(500).json({ error: "Internal Server Error" });
 	}
 };
+
+export const testRoutes = async (req, res) => {
+	console.log("this is just a test to see the changes in Postman")
+	res.send("This is the message from the testRoutes")
+}
