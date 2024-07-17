@@ -1,5 +1,6 @@
 import React from 'react'
 import Messages from './Messages'
+import MessageInput from './MessageInput'
 
 const MessageContainer = () => {
   return (
@@ -10,10 +11,18 @@ const MessageContainer = () => {
           <span className='text-gray-900 font-bold'>John Doe</span>
         </div>
         <Messages />
-
+        <MessageInput />
       </>
     </div>
   )
 }
 
 export default MessageContainer
+
+const NoChatSelected = () => {
+  return (
+    <div className='flex items-center justify '>
+
+    </div>
+  )
+}
