@@ -11,7 +11,7 @@ const MessageInput = () => {
                 placeholder='Type your message...'
             />
             <button type='submit' className='absolute inset-y-0 right-0 flex items-center pr-3'>
-                <BsSend />
+                <BsSend  className='bg-slate-300 rounded-sm'/>
             </button>
         </div>
     </form>
