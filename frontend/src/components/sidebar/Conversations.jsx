@@ -3,16 +3,18 @@ import Conversation from './Conversation'
 
 const Conversations = () => {
   return (
-    <div className='flex flex-col overflow-auto h-fit p-4 rounded-lg'>
-        <Conversation />
-        <Conversation />
-        <Conversation />
-        <Conversation />
-        <Conversation />
-        <Conversation />
-        <Conversation />
-        <Conversation />
-        
+    <div className="flex-1 overflow-y-auto">
+      <div className="flex flex-col space-y-2 h-80">
+        <Conversation/>
+        <Conversation/>
+        <Conversation/>
+        <Conversation/>
+        <Conversation/>
+        <Conversation/>
+        <Conversation/>
+        <Conversation/>
+       
+      </div>
     </div>
   )
 }
